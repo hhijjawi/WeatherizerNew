@@ -3,7 +3,8 @@ package com.weatherizer.hisham.weatherizer;
 /**
  * Created by Hisham on 10/25/2015.
  */
-// Stolen with your permission from Stack Overflow before I knew about ION or GSON, does the job
+// Stolen with your permission from Stack Overflow before I knew about ION or GSON, does the job.
+//Switched for ION Later On due to bugs, might still show up in some places.
 
 import org.json.JSONException;
 import org.json.JSONObject;

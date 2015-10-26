@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Wait"
+        android:id="@+id/dayOfTheWeek"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="30dp"
+        android:textColor="#336600"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="19dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="69dp"
+        android:id="@+id/logoIcon"
+        android:cropToPadding="false"
+        android:layout_toRightOf="@+id/min"
+        android:layout_toEndOf="@+id/min"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Wait"
+        android:id="@+id/min"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/dayOfTheWeek"
+        android:layout_toEndOf="@+id/dayOfTheWeek"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/max"
+        android:layout_below="@+id/min"
+        android:layout_toRightOf="@+id/dayOfTheWeek"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/chanceOfRain"
+        android:textSize="18sp"
+        android:layout_alignParentTop="false"
+        android:layout_toRightOf="@+id/dayOfTheWeek"
+        android:layout_toEndOf="@+id/dayOfTheWeek" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weatherizer</string>
+    <string name="radar">Radar</string>
+    <string name="weather_lady">Weather Lady</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="celsius">Celsius</string>
+    <string name="num_days">Enter number of days:</string>
+    <string name="zipCode">Zip Code</string>
+</resources>
